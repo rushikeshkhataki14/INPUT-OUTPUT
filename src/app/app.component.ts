@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'component-communication';
+
+  name= "rushi";
+  message="";
+
+  receivedMessage (msg:string){
+    this.message = msg;
+  }
 }
